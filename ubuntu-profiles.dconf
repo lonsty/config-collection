@@ -1,0 +1,118 @@
+# dconf dump /org/gnome/terminal/legacy/profiles:/ > profile.dconf
+# dconf load /org/gnome/terminal/legacy/profiles:/ < profile.dconf
+
+[:21dedcfa-045f-40a5-b03f-2c8f1a71fb22]
+foreground-color='#B4B4B7B7B4B4'
+visible-name='base16: Google (dark)'
+palette=['#1D1D1F1F2121', '#CCCC34342B2B', '#191988884444', '#FBFBA9A92222', '#39397171EDED', '#A3A36A6AC7C7', '#39397171EDED', '#C5C5C8C8C6C6', '#969698989696', '#CCCC34342B2B', '#191988884444', '#FBFBA9A92222', '#39397171EDED', '#A3A36A6AC7C7', '#39397171EDED', '#FFFFFFFFFFFF']
+use-system-font=false
+highlight-colors-set=true
+use-theme-colors=false
+font='MesloLGS NF 12'
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#B4B4B7B7B4B4'
+background-color='#1D1D1F1F2121'
+highlight-background-color='#'
+highlight-foreground-color='#'
+
+[:82d83890-2ad5-4d42-8fb6-a53b20d47748]
+foreground-color='rgb(240,240,240)'
+visible-name='Atom'
+palette=['rgb(0,0,0)', 'rgb(253,95,241)', 'rgb(135,195,138)', 'rgb(255,215,177)', 'rgb(133,190,253)', 'rgb(185,182,252)', 'rgb(133,190,253)', 'rgb(224,224,224)', 'rgb(0,0,0)', 'rgb(253,95,241)', 'rgb(148,250,54)', 'rgb(245,255,168)', 'rgb(150,203,254)', 'rgb(185,182,252)', 'rgb(133,190,253)', 'rgb(224,224,224)']
+use-transparent-background=true
+highlight-colors-set=true
+use-theme-colors=false
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#c5c5c8c8c6c6'
+background-color='rgb(0,0,0)'
+background-transparency-percent=18
+highlight-background-color='#'
+highlight-foreground-color='#'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(255,255,255)'
+default-size-rows=36
+default-size-columns=132
+use-transparent-background=true
+use-theme-colors=false
+use-theme-transparency=false
+background-color='rgb(0,0,0)'
+background-transparency-percent=29
+audible-bell=true
+
+[:90eb6c8c-0b72-478a-bddc-0e3e11817e4f]
+foreground-color='rgb(248,248,242)'
+visible-name='Monokai Dark'
+palette=['rgb(8,29,39)', 'rgb(249,38,114)', 'rgb(166,226,46)', 'rgb(235,210,74)', 'rgb(72,212,239)', 'rgb(174,129,255)', 'rgb(42,161,152)', 'rgb(249,248,245)', 'rgb(128,143,145)', 'rgb(249,38,114)', 'rgb(166,226,46)', 'rgb(244,191,117)', 'rgb(102,217,239)', 'rgb(174,129,255)', 'rgb(42,161,152)', 'rgb(248,248,242)']
+bold-is-bright=true
+default-size-columns=120
+default-size-rows=36
+cursor-background-color='rgb(72,212,239)'
+cursor-shape='block'
+cursor-colors-set=true
+highlight-colors-set=true
+use-system-font=false
+use-transparent-background=true
+use-theme-colors=false
+font='MesloLGS NF 12'
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#f8f8f8f8f2f2'
+background-color='rgb(0,0,0)'
+background-transparency-percent=21
+highlight-background-color='rgb(96,103,29)'
+highlight-foreground-color='#'
+
+[/]
+list=['90eb6c8c-0b72-478a-bddc-0e3e11817e4f', '36a00ee5-b61e-43bd-95cb-7de3ef987a02', 'd323ee54-38fe-4bb1-abd2-e2e16828ed95', '21dedcfa-045f-40a5-b03f-2c8f1a71fb22', '82d83890-2ad5-4d42-8fb6-a53b20d47748']
+default='90eb6c8c-0b72-478a-bddc-0e3e11817e4f'
+
+[:36a00ee5-b61e-43bd-95cb-7de3ef987a02]
+foreground-color='rgb(240,240,240)'
+visible-name='Molokai'
+palette=['rgb(27,29,30)', 'rgb(228,91,13)', 'rgb(35,226,152)', 'rgb(96,212,223)', 'rgb(208,128,16)', 'rgb(255,0,135)', 'rgb(208,168,67)', 'rgb(187,187,187)', 'rgb(85,85,85)', 'rgb(157,102,246)', 'rgb(95,224,177)', 'rgb(109,242,255)', 'rgb(255,175,0)', 'rgb(255,135,175)', 'rgb(255,206,81)', 'rgb(255,255,255)']
+default-size-columns=132
+default-size-rows=36
+cursor-background-color='rgb(0,0,0)'
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=true
+use-theme-colors=false
+use-transparent-background=true
+font='MesloLGS NF 12'
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#BBBBBBBBBBBB'
+background-color='rgb(0,0,0)'
+background-transparency-percent=19
+highlight-background-color='rgb(47,127,241)'
+highlight-foreground-color='#'
+
+[:d323ee54-38fe-4bb1-abd2-e2e16828ed95]
+foreground-color='#3535b1b1d2d2'
+visible-name='Slate'
+palette=['#222222222222', '#e2e2a8a8bfbf', '#8181d7d77878', '#c4c4c9c9c0c0', '#26264b4b4949', '#a4a48181d3d3', '#1515abab9c9c', '#0202c5c5e0e0', '#ffffffffffff', '#ffffcdcdd9d9', '#bebeffffa8a8', '#d0d0cccccaca', '#7a7ab0b0d2d2', '#c5c5a7a7d9d9', '#8c8cdfdfe0e0', '#e0e0e0e0e0e0']
+use-system-font=false
+use-transparent-background=true
+highlight-colors-set=true
+use-theme-colors=false
+font='MesloLGS NF 12'
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#3535b1b1d2d2'
+background-color='#222222222222'
+background-transparency-percent=15
+highlight-background-color='#'
+highlight-foreground-color='#'
